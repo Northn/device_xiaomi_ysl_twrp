@@ -1,8 +1,7 @@
 ro.product.brand=xiaomi
-ro.product.name=sakura
-ro.product.device=sakura
-ro.product.mod_device=sakura_global
-ro.build.product=sakura
+ro.product.name=ysl
+ro.product.device=ysl
+ro.build.product=ysl
 ro.treble.enabled=true
 sys.usb.controller=a800000.dwc3
 sys.usb.rndis.func.name=rndis_bam
