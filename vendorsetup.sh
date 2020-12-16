@@ -18,7 +18,8 @@
 # 	Please maintain this if you use this script or any part of it
 #
 FDEVICE="ysl"
-#set -o xtrace
+add_lunch_combo omni_ysl-userdebug
+add_lunch_combo omni_ysl-eng
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep -w $FDEVICE)
