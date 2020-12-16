@@ -1,2 +1,0 @@
-add_lunch_combo omni_ysl-userdebug
-add_lunch_combo omni_ysl-eng
