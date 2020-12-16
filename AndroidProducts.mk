@@ -16,5 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_ysl.mk
-
-COMMON_LUNCH_CHOICES := omni_ysl-eng
