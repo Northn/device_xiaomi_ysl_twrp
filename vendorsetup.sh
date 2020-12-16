@@ -46,6 +46,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_DELETE_AROMAFM=1
 	export OF_CHECK_OVERWRITE_ATTEMPTS=1
 	export FOX_ADVANCED_SECURITY=1
+	export OF_USE_GREEN_LED=0
 
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
   	   export | grep "FOX" >> $FOX_BUILD_LOG_FILE
